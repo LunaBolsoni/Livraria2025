@@ -1,0 +1,19 @@
+--2025-08-29 15:07:59--  https://github.com/marrcandre/django-drf-tutorial/raw/main/apps/uploader.zip
+Resolvendo github.com (github.com)... 4.228.31.150
+Conectando-se a github.com (github.com)|4.228.31.150|:443... conectado.
+A requisição HTTP foi enviada, aguardando resposta... 302 Found
+Localização: https://raw.githubusercontent.com/marrcandre/django-drf-tutorial/main/apps/uploader.zip [redirecionando]
+--2025-08-29 15:07:59--  https://raw.githubusercontent.com/marrcandre/django-drf-tutorial/main/apps/uploader.zip
+Resolvendo raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.111.133, ...
+Conectando-se a raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... falha: Tempo esgotado para conexão.
+Conectando-se a raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... falha: Tempo esgotado para conexão.
+Conectando-se a raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... falha: Tempo esgotado para conexão.
+Conectando-se a raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... conectado.
+A requisição HTTP foi enviada, aguardando resposta... 200 OK
+Tamanho: 5811 (5,7K) [application/zip]
+Salvando em: ‘uploader.zip’
+
+     0K .....                                                 100% 72,0M=0s
+
+2025-08-29 15:14:45 (72,0 MB/s) - ‘uploader.zip’ salvo [5811/5811]
+
