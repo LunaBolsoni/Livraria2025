@@ -7,11 +7,12 @@ from drf_spectacular.views import (
 )
 from rest_framework.routers import DefaultRouter
 
-from core.views import UserViewSet, EditoraViewSet, UserViewSet, CategoriaViewSet, AutorViewSet  
+from core.views import UserViewSet, EditoraViewSet, UserViewSet, CategoriaViewSet, AutorViewSet, LivroViewSet  
 router = DefaultRouter()
 router.register(r'categorias', CategoriaViewSet)
 router.register(r'editoras', EditoraViewSet)
 router.register(r'autor', AutorViewSet)
+router.register(r'livro', LivroViewSet)
 router.register(r'usuarios', UserViewSet, basename='usuarios')
 
 urlpatterns = [
